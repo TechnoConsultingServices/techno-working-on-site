@@ -1,0 +1,62 @@
+@import @/styles/helpers
+
+.section
+    min-height: 100vh
+    padding-bottom: 3rem
+    +d
+        padding-bottom: rem(96)
+
+.container
+    position: relative
+    z-index: 9        
+
+.date
+    margin-bottom: rem(24)
+    +m
+        +bodyS
+
+.title
+    max-width: rem(990)
+    margin-bottom: 2rem
+    font-weight: 500
+    +d
+        margin-bottom: rem(80)
+    +t
+        margin-bottom: rem(56)
+
+.list
+    display: flex
+    +m
+        display: block
+
+.item
+    &:not(:last-child)
+        margin-right: rem(138)
+        +t
+            margin-right: rem(80)
+        +m
+            margin: 0 0 rem(32)
+
+.category
+    margin-bottom: rem(8)
+    color: #87A9B9
+    +m
+        +bodyS
+
+.text
+    +bodyXL
+    +m
+        +bodyM
+
+
+.descriptionsection
+    padding: rem(100) 0
+
+.description
+    font-size: 32px
+    line-height: 42px
+    letter-spacing: -0.32px
+    max-width: rem(950)
+    +d
+        font-size: rem(32)
+        line-height: rem(42)    
