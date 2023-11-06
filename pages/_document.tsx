@@ -17,15 +17,15 @@ class MyDocument extends Document {
             <Html>
                 <Head>
                     <meta
-                        content="Keeper - Digital Agency Website"
-                        name="Perfect design for Digital Agency Website"
+                        content="Cutting-Edge Digital Solutions | Techno Consulting Services"
+                        name="Empowering Businesses for Digital Success"
                     />
                     <meta
-                        content="Perfect design for Digital Agency Website"
+                        content="Empowering Businesses for Digital Success"
                         property="og:title"
                     />
                     <meta
-                        content="Keeper - Digital Agency Website"
+                        content="Cutting-Edge Digital Solutions | Techno Consulting Services"
                         property="og:description"
                     />
                     <meta
@@ -34,18 +34,18 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="og:url"
-                        content="https://ui8.net/slabdsgn/products/keeper---digital-agency-website"
+                        content="https://technoconsulting.in"
                     />
                     <meta
                         property="og:site_name"
-                        content="Perfect design for Digital Agency Website"
+                        content="Techno Consulting Services"
                     />
                     <meta
-                        content="Perfect design for Digital Agency Website"
+                        content="Empowering Businesses for Digital Success"
                         property="twitter:title"
                     />
                     <meta
-                        content="Keeper - Digital Agency Website"
+                        content="Cutting-Edge Digital Solutions | Techno Consulting Services"
                         property="twitter:description"
                     />
                     <meta
@@ -54,9 +54,9 @@ class MyDocument extends Document {
                     />
                     <meta property="og:type" content="Article" />
                     <meta content="summary" name="twitter:card" />
-                    <meta name="twitter:site" content="@ui8" />
-                    <meta name="twitter:creator" content="@ui8" />
-                    <meta property="fb:admins" content="132951670226590" />
+                    <meta name="twitter:site" content="@technoconsult" />
+                    <meta name="twitter:creator" content="@technoconsult" />
+                    <meta property="fb:admins" content="" />
                     <meta
                         name="viewport"
                         content="width=device-width, initial-scale=1"
