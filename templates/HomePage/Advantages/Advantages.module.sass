@@ -1,0 +1,88 @@
+@import @/styles/helpers
+
+.section
+    padding-top: rem(128)
+    +t
+        padding-top: rem(96)
+
+.label
+    margin-bottom: rem(40)
+    color: $n0
+    border-bottom: rem(1) solid $n0
+    font-size: rem(17)
+    +t
+        margin-bottom: rem(32)
+
+.row
+    display: flex
+    justify-content: space-between
+    +t
+        position: relative
+        display: block
+        padding-bottom: rem(112)
+    +m
+        margin-bottom: rem(82)
+        padding-bottom: rem(108)
+
+.wrap
+    flex-shrink: 0
+    width: rem(640)
+    +t
+        width: 100%
+
+.title
+    margin-bottom: rem(56)
+    +t
+        margin-bottom: rem(32)
+
+.content
+    flex-shrink: 0
+    width: rem(510)
+    +bodyL
+    +d
+        width: rem(460)
+    +t
+        width: 100%
+        +bodyM
+    p
+        &:not(:last-child)
+            margin-bottom: rem(32)
+
+.button
+    +t
+        position: absolute
+        left: 0
+        bottom: 0
+
+.list
+    display: flex
+    justify-content: space-between
+    +m
+        display: block
+    
+.item
+    max-width: 280px
+    font-size: rem(17)
+    line-height: 30px
+    &:not(:last-child)
+        +m
+            margin-bottom: rem(48)
+
+.counter
+    margin-bottom: rem(24)
+    +t
+        font-size: rem(64)
+        line-height: rem(80)
+    +m
+        margin-bottom: rem(6)
+        +h4R
+
+.subtitle
+    +t
+        font-size: rem(18)
+
+
+.mash
+    background-image: url(/images/mash/mash_7.png)
+    background-repeat: no-repeat
+    background-position: left top

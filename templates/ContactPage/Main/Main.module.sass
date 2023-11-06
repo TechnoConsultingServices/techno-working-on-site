@@ -1,0 +1,121 @@
+@import @/styles/helpers
+
+.section
+    min-height: auto
+    padding-bottom: rem(80)
+    +d
+        padding-bottom: rem(160)
+    +t
+        padding-bottom: rem(120)
+    +m
+        padding-bottom: rem(96)
+
+.container
+    position: relative
+    z-index: 9        
+
+.row
+    position: relative
+    display: flex
+    +m
+        display: block
+    &:nth-child(2)
+        +t
+            display: block
+    &:not(:last-child)
+        margin-bottom: rem(120)
+        +d
+            margin-bottom: rem(96)
+
+.anchor
+    position: absolute
+    top: rem(-120)
+    left: 0
+    right: 0
+    +m
+        top: rem(-104)
+
+.wrap
+    flex-grow: 1
+    padding-right: rem(150)
+    +d
+        padding-right: rem(80)
+    +t
+        padding-right: rem(40)
+    +m
+        margin-bottom: rem(48)
+        padding-right: 0
+
+.title
+    margin-bottom: rem(72)
+    +d
+        margin-bottom: rem(56)
+    +m
+        margin-bottom: rem(48)
+        font-size: rem(64)
+        line-height: rem(80)
+
+.content
+    +bodyL
+    +m
+        +bodyM
+
+.button
+    margin: rem(48) rem(50) 0 0
+    flex-shrink: 0
+    +w
+        margin-top: rem(24)
+    +d
+        margin: rem(16) rem(24) 0 0
+    +t
+        margin: 0
+    &:hover
+        svg
+            transform: translate(-50%,-50%) rotate(45deg)
+
+.sidebar
+    flex-shrink: 0
+    width: rem(290)
+    margin-left: rem(260)
+    +w
+        margin-left: rem(160)
+    +d
+        margin-left: rem(80)
+    +t
+        width: 100%
+        margin: rem(96) 0 0
+
+.item
+    &:not(:last-child)
+        margin-bottom: rem(64)
+        +t
+            margin-bottom: rem(48)
+
+.category
+    margin-bottom: rem(16)
+    +subtitleM
+    color: $n10
+    +m
+        +subtitleS
+
+.text
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    color: $n6
+    font-size: rem(16)
+    line-height: rem(28)
+    +m
+        +bodyM
+
+.phone
+    color: $n6
+    font-size: rem(16)
+    line-height: rem(28)
+
+.mash
+    background-image: url('/images/mash/contact/mash_39.png'), url('/images/mash/contact/mash_40.png')
+    background-repeat: no-repeat
+    background-position: right -500px, left -400px
+    background-size: contain 
+    padding-bottom: rem(120) 

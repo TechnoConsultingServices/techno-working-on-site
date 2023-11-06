@@ -1,0 +1,33 @@
+@import @/styles/helpers
+
+.section
+    position: relative
+
+.anchor
+    position: absolute
+    top: rem(-130)
+    left: 0
+    right: 0
+    +m
+        top: rem(-62)
+.list
+    display: flex
+    gap: 40px
+    flex-wrap: wrap
+
+.button
+    margin-top: 4rem
+    +w
+        margin-top: rem(16)
+    &:after
+        transform: rotate(90deg)
+    &:hover
+        &:after
+            transform: rotate(135deg)
+
+.mash
+    background-image: url('/images/mash/blog/mash_30.png'), url('/images/mash/blog/mash_31.png'), url('/images/mash/blog/mash_32.png')
+    background-repeat: no-repeat
+    background-position: right -350px, left center, right bottom
+    padding: rem(120) 0
+    margin-top: rem(-120)

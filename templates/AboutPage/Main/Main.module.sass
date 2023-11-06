@@ -1,0 +1,75 @@
+@import @/styles/helpers
+
+.section
+    padding-bottom: rem(232)
+    min-height: 100vh
+    +d
+        min-height: auto
+        padding-bottom: rem(260)
+    +m
+        padding-bottom: rem(188)
+
+.sectionVideo
+    margin-top: -10rem
+    +m
+        margin-top: rem(-96)
+
+.container
+    position: relative
+    z-index: 9
+
+.title
+    max-width: rem(660)
+    font-weight: 500
+    font-size: rem(66)
+    line-height: rem(82)
+
+.wrap
+    position: relative
+    margin-left: auto
+    width: rem(660)
+    +t
+        width: rem(600)
+    +m
+        width: rem(246)
+    .button
+        position: absolute
+        top: rem(-32)
+        left: rem(-88)
+        z-index: 2
+        background: #ADA6FF
+        +m
+            left: rem(-56)
+        &:hover
+            svg
+                transform: translate(-50%,-50%) scale(1.1)
+    &:after
+        content: ""
+        position: absolute
+        inset: 0
+        z-index: 1
+        background: rgba(#88725E, .2)
+
+.preview
+    position: relative
+    height: rem(400)
+    overflow: hidden
+    +m
+        height: rem(160)
+
+.video
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 110%
+    height: 110%
+    object-fit: cover
+
+.videoModal
+    width: 100%
+    
+.bannerVideo
+    width: 100%
+    object-fit: cover
+    height: 100%      

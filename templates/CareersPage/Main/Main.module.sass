@@ -1,0 +1,89 @@
+@import @/styles/helpers
+
+.section
+    display: flex
+    align-items: center
+    min-height: 100vh
+    padding-top: 0rem
+    padding-bottom: 4.1rem
+    +d
+        min-height: auto
+        padding-bottom: rem(96)
+    +t
+        padding-bottom: rem(60)
+
+.container
+    z-index: 9
+    position: relative
+    display: flex
+    justify-content: space-between
+    align-items: flex-end
+    width: 100%
+    +t
+        display: block
+
+.title
+    max-width: rem(668)
+    font-weight: 500
+    padding-right: rem(48)
+    +t
+        max-width: 100%
+        margin: 0 0 rem(48)
+        padding-right: 0
+
+.links
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    flex-shrink: 0
+    width: rem(430)
+    padding-bottom: rem(16)
+    +r(1179)
+        width: rem(330)
+    +t
+        width: 100%
+        padding: 0
+
+.link
+    text-align: left
+    color: $n0
+    transition: color .2s
+    &:hover,
+    &.active
+        color: $n0
+    &.active
+        .counter
+            border-color: $p2
+    &:not(:last-child)
+        margin-bottom: rem(8)
+
+.counter
+    margin-left: rem(12)
+    padding: rem(3) rem(12) rem(1)
+    border: rem(1) solid $p6
+    border-radius: rem(14)
+    +subtitleS
+    color: $p4
+    transition: border-color .2s
+    +m
+        margin-left: rem(8)
+        padding: rem(2) rem(7) rem(1)
+        +subtitleXS
+
+.text
+    +bodyL
+    +m
+        +bodyM
+
+.heading
+    font-size: rem(17)
+    color: #87A9B9
+
+
+.preview
+    z-index: 9
+    margin-top: -10rem
+    +t
+        margin-top: rem(-136)
+    +m
+        margin: rem(-68) 0 rem(96)        
