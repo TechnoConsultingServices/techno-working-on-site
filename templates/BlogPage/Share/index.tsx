@@ -5,15 +5,15 @@ import Socials from "@/components/Socials";
 const socials = [
     {
         icon: "facebook",
-        url: "https://www.facebook.com/ui8.net/",
+        url: "https://www.facebook.com/technoconsulting.net/",
     },
     {
         icon: "twitter",
-        url: "https://twitter.com/ui8",
+        url: "https://twitter.com/technoconsulting",
     },
     {
         icon: "linkedin",
-        url: "https://www.linkedin.com/company/ui8",
+        url: "https://www.linkedin.com/company/technoconsulting",
     },
 ];
 

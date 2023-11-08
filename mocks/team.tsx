@@ -9,11 +9,11 @@ export const team = [
         socials: [
             {
                 icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
+                url: "https://www.instagram.com/technoconsultingnet/",
             },
             {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/company/technoconsulting",
             },
         ],
     },
@@ -27,11 +27,11 @@ export const team = [
         socials: [
             {
                 icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
+                url: "https://www.instagram.com/technoconsultingnet/",
             },
             {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/company/technoconsulting",
             },
         ],
     },
@@ -45,11 +45,11 @@ export const team = [
         socials: [
             {
                 icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
+                url: "https://www.instagram.com/technoconsultingnet/",
             },
             {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/company/technoconsulting",
             },
         ],
     },
@@ -63,11 +63,11 @@ export const team = [
         socials: [
             {
                 icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
+                url: "https://www.instagram.com/technoconsultingnet/",
             },
             {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/company/technoconsulting",
             },
         ],
     },
@@ -81,11 +81,11 @@ export const team = [
         socials: [
             {
                 icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
+                url: "https://www.instagram.com/technoconsultingnet/",
             },
             {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/company/technoconsulting",
             },
         ],
     },
@@ -99,11 +99,11 @@ export const team = [
         socials: [
             {
                 icon: "instagram",
-                url: "https://www.instagram.com/ui8net/",
+                url: "https://www.instagram.com/technoconsultingnet/",
             },
             {
                 icon: "linkedin",
-                url: "https://www.linkedin.com/company/ui8",
+                url: "https://www.linkedin.com/company/technoconsulting",
             },
         ],
     }

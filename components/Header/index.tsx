@@ -38,19 +38,19 @@ const navigation = [
 const socials = [
     {
         icon: "facebook",
-        url: "https://www.facebook.com/ui8.net/",
+        url: "https://www.facebook.com/technoconsulting.net/",
     },
     {
         icon: "twitter",
-        url: "https://twitter.com/ui8",
+        url: "https://twitter.com/technoconsulting",
     },
     {
         icon: "instagram",
-        url: "https://www.instagram.com/ui8net/",
+        url: "https://www.instagram.com/technoconsultingnet/",
     },
     {
         icon: "linkedin",
-        url: "https://www.linkedin.com/company/ui8",
+        url: "https://www.linkedin.com/company/technoconsulting",
     },
 ];
 
