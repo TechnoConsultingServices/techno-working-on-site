@@ -13,7 +13,7 @@ const socials = [
     },
     {
         icon: "linkedin",
-        url: "https://www.linkedin.com/company/technoconsulting",
+        url: "https://www.linkedin.com/company/technoconsulting-in",
     },
 ];
 

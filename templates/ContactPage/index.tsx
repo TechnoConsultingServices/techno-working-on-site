@@ -9,7 +9,9 @@ import { useEffect } from "react";
 const AboutPage = () => {
 
     useEffect(() => {
-        AOS.init();
+        AOS.init({
+            once: true
+        });
     }, []);
 
     return (
