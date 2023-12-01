@@ -43,7 +43,7 @@ const Select = ({
                 { [styles.fieldNumber]: number, [styles.active]: visible },
                 className
             )}
-            data-aos='fade-up' data-aos-duration='2000'
+            // data-aos='fade-up' data-aos-duration='2000'
         >
             {number && (
                 <div className={cn("label", styles.number)}>{number}</div>

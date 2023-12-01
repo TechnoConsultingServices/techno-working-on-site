@@ -33,7 +33,7 @@ const Field = ({
             },
             className
         )}
-        data-aos='fade-up' data-aos-duration='2000'
+        // data-aos='fade-up' data-aos-duration='2000'
     >
         {number && <div className={cn("label", styles.number)}>{number}</div>}
         {label && <div className={styles.label}>{label}</div>}

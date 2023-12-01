@@ -46,11 +46,11 @@ const socials = [
     },
     {
         icon: "instagram",
-        url: "https://www.instagram.com/technoconsultingnet/",
+        url: "https://www.instagram.com/techno_consulting_services/",
     },
     {
         icon: "linkedin",
-        url: "https://www.linkedin.com/company/technoconsulting",
+        url: "https://www.linkedin.com/company/technoconsulting-in/",
     },
 ];
 
