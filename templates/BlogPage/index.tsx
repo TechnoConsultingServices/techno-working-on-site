@@ -58,8 +58,7 @@ const BlogPage = ({ id }: any) => {
           image='/images/silhouette.jpg'
         />
       </div> */}
-
-      <Posts items={blogs.slice(0, 3)} showMash={true} />
+      <Posts items={blogs} showMash={true} />
     </Layout>
   );
 };

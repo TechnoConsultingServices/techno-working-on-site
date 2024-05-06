@@ -40,12 +40,12 @@ export const linksBlogs = [
     {
         title: "All Blogs",
         value: "all-blogs",
-        counter: 3,
+        counter: 5,
     },
     {
         title: "Development",
         value: "development",
-        counter: 3,
+        counter: 5,
     },
     // {
     //     title: "Press Releases",

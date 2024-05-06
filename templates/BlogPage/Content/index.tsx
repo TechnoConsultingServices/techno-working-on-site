@@ -5,7 +5,7 @@ const Content = ({ blogContent, conclusion, credits }: any) => {
   return blogContent ? (
     <div className={cn(styles.section)}>
       <div className={cn("container", styles.container)}>
-        <div className='content-wrappper'>
+        <div className="content-wrappper">
           {blogContent?.map(
             (
               item: { contentTitle: string; content: string },
@@ -15,16 +15,17 @@ const Content = ({ blogContent, conclusion, credits }: any) => {
                 <div key={index} className={cn(styles.head)}>
                   <div
                     className={cn("h6", styles.title)}
-                    data-aos='fade-up'
-                    data-aos-duration='2000'>
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                  >
                     {item.contentTitle}
                   </div>
                   <div
                     className={styles.text}
-                    data-aos='fade-up'
-                    data-aos-duration='2000'>
-                    {item.content}
-                  </div>
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                    dangerouslySetInnerHTML={{ __html: item.content }}
+                  />
                 </div>
               );
             }
@@ -35,20 +36,21 @@ const Content = ({ blogContent, conclusion, credits }: any) => {
   ) : conclusion ? (
     <div className={cn(styles.section)}>
       <div className={cn("container", styles.container)}>
-        <div className='content-wrappper'>
+        <div className="content-wrappper">
           <div className={cn(styles.head)}>
             <div
               className={cn("h6", styles.title)}
-              data-aos='fade-up'
-              data-aos-duration='2000'>
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               Conclusion
             </div>
             <div
               className={styles.text}
-              data-aos='fade-up'
-              data-aos-duration='2000'>
-              {conclusion}
-            </div>
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              dangerouslySetInnerHTML={{ __html: conclusion }}
+            ></div>
           </div>
         </div>
       </div>
@@ -58,8 +60,9 @@ const Content = ({ blogContent, conclusion, credits }: any) => {
       <div className={cn("container", styles.container)}>
         <div
           className={styles.credit}
-          data-aos='fade-up'
-          data-aos-duration='2000'>
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           {credits}
         </div>
       </div>
