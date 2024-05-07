@@ -43,15 +43,15 @@ export const linksBlogs = [
         counter: 5,
     },
     {
-        title: "Development",
-        value: "development",
-        counter: 5,
+        title: "Vue.JS",
+        value: "vue.js",
+        counter: 3,
     },
-    // {
-    //     title: "Press Releases",
-    //     value: "press-releases",
-    //     counter: 35,
-    // },
+    {
+        title: "Others",
+        value: "others",
+        counter: 2,
+    },
     // {
     //     title: "Branding",
     //     value: "branding",

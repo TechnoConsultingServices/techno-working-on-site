@@ -4,9 +4,9 @@ export const blogs = [
     author: "Senthil",
     title:
       "Harnessing the Power of Reusable Components and Libraries in Vue.js",
-    category: "Development",
+    category: "Vue.JS",
     image: "/images/blogs/blog/blog-1-start-image.jpg",
-    date: "December 15, 2023",
+    date: "July 15, 2023",
     blogDescription:
       "In the vibrant world of Vue.js, building efficient and modular applications is a goal shared by many developers. One of the cornerstones that empower us to achieve this objective is the use of reusable components and libraries. These powerful tools redefine how we manage and implement code, fostering an environment of productivity, consistency, and simplicity. Let’s uncover the remarkable advantages that these reusable assets bring to Vue.js-based front-end development.",
     startImage: "/images/blogs/blog/blog-1-start-image.jpg",
@@ -60,7 +60,7 @@ export const blogs = [
     id: "2",
     author: "Senthil",
     title: "Understanding Amy Edmondson’s Psychological Safety Model",
-    category: "Development",
+    category: "Others",
     image: "/images/blogs/blog/blog-2-start-image.jpg",
     date: "August 22, 2023",
     blogDescription:
@@ -94,7 +94,7 @@ export const blogs = [
     id: "3",
     author: "Senthil",
     title: "Cultivating Psychological Safety: Tips for Leaders",
-    category: "Development",
+    category: "Others",
     image: "/images/blogs/blog/blog-3-start-image.jpg",
     date: "November 10, 2023",
     blogDescription:
@@ -158,7 +158,7 @@ export const blogs = [
     author: "Gowtham",
     title:
       "Navigating the Front-End Framework Landscape: A Vue.js vs. React vs. Angular Exploration",
-    category: "Development",
+    category: "Vue.JS",
     image: "/images/blogs/blog/blog-4-start-image.png",
     date: "January 02, 2024",
     blogDescription:
@@ -200,7 +200,7 @@ export const blogs = [
     id: "5",
     author: "Gowtham",
     title: "Building Seamless Web Apps with Vue.js and Backend Technologies",
-    category: "Development",
+    category: "Vue.JS",
     image: "/images/blogs/blog/blog-5-start-image.jpg",
     date: "February 01, 2024",
     blogDescription:
