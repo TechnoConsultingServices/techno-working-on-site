@@ -23,6 +23,7 @@ import classNames from "classnames";
 
 const HomePage = () => {
   const scrollToRef = useRef<any>(null);
+  const sortedBlogs = blogs.sort((a, b) => (a.id < b.id ? 1 : -1));
 
   useEffect(() => {
     AOS.init();
@@ -78,7 +79,7 @@ const HomePage = () => {
         info='Our key tech stacks'
         items={stacks}
       />
-      <Blogs items={blogs} />
+      <Blogs items={sortedBlogs} />
     </Layout>
   );
 };
