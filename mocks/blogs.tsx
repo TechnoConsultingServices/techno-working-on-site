@@ -155,7 +155,7 @@ export const blogs = [
   },
   {
     id: "4",
-    author: "Gowtham",
+    author: "Jayanth Kumar B",
     title:
       "Navigating the Front-End Framework Landscape: A Vue.js vs. React vs. Angular Exploration",
     category: "Vue.JS",
@@ -327,7 +327,7 @@ export const blogs = [
   },
   {
     id: "7",
-    author: "Gowtham",
+    author: "Duraisaravanan N & Nithesh T",
     title: "Vue 3 Updates and Features",
     category: "Vue.JS",
     image: "/images/blogs/blog/blog-7-start-image.png",
