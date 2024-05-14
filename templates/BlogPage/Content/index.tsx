@@ -1,5 +1,6 @@
 import cn from "classnames";
 import styles from "./Content.module.sass";
+import Image from "@/components/Image";
 
 const Content = ({ blogContent, conclusion, credits }: any) => {
   return blogContent ? (
@@ -8,7 +9,7 @@ const Content = ({ blogContent, conclusion, credits }: any) => {
         <div className="content-wrappper">
           {blogContent?.map(
             (
-              item: { contentTitle: string; content: string },
+              item: { contentTitle: string; content: string; image: string },
               index: number
             ) => {
               return (
@@ -25,6 +26,12 @@ const Content = ({ blogContent, conclusion, credits }: any) => {
                     data-aos="fade-up"
                     data-aos-duration="2000"
                     dangerouslySetInnerHTML={{ __html: item.content }}
+                  />
+                  <Image
+                    src={item.image}
+                    fill
+                    style={{ objectFit: "cover" }}
+                    alt=""
                   />
                 </div>
               );
