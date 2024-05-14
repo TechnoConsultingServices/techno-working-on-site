@@ -21,18 +21,28 @@ const Content = ({ blogContent, conclusion, credits }: any) => {
                   >
                     {item.contentTitle}
                   </div>
-                  <div
-                    className={styles.text}
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
-                    dangerouslySetInnerHTML={{ __html: item.content }}
-                  />
-                  <Image
-                    src={item.image}
-                    fill
-                    style={{ objectFit: "cover" }}
-                    alt=""
-                  />
+                  <div>
+                    <div
+                      className={styles.text}
+                      data-aos="fade-up"
+                      data-aos-duration="2000"
+                      dangerouslySetInnerHTML={{ __html: item.content }}
+                    />
+                    {item.image && (
+                      <div
+                        style={{ marginLeft: "7.5rem" }}
+                        data-aos="fade-up"
+                        data-aos-duration="2000"
+                      >
+                        <Image
+                          src={item.image}
+                          alt=""
+                          width={600}
+                          height={250}
+                        />
+                      </div>
+                    )}
+                  </div>
                 </div>
               );
             }

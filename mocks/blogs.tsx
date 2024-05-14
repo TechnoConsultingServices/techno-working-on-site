@@ -343,11 +343,61 @@ export const blogs = [
           "Vue.js 3 debuts the Composition API, offering a fresh approach to code organisation and reuse. This API provides a more flexible structure compared to the Options API and was initially available in <b>Vue 2.7</b> through the officially maintained <b>@vue/composition-api</b> plugin. In Vue 3, it is prominently used in conjunction with the <b>script setup</b>, syntax in single-file components. Here, we can see how to use data, methods, computed, watch",
       },
       {
-        contentTitle: "Data",
+        contentTitle: "Data:",
         content:
           "<ul><li>The ref() function is part of the Vue.js Reactivity API.</li><li>It allows you to create a reactive reference to a value. This means that any changes to the value will automatically trigger updates in your component’s template.</li><li>You can use ref() to hold any type of value, including primitives (like numbers, strings) and objects.</li></ul><br>Let’s create a simple counter using ref()",
         image: "/images/blogs/blog/blog-7-data-image.png",
       },
+      {
+        contentTitle: "Methods:",
+        content:
+          "In the Options API, we typically declare our data, computed properties, and methods within the component options. However, with the Composition API, we can achieve the same functionality in a more modular and organised way.<br><br>Let’s create a simple counter using methods in Composition API",
+        image: "/images/blogs/blog/blog-7-method-image.png",
+      },
+      {
+        contentTitle: "Computed:",
+        content:
+          "In Vue 3, the Composition API provides a more modular and concise way to work with computed properties.<br><br>Let’s create a simple counter using computed in Composition API",
+        image: "/images/blogs/blog/blog-7-computed-image.png",
+      },
+      {
+        contentTitle: "Watch:",
+        content:
+          "We can import watch from Vue.<br>The counter variable is declared using ref(0).<br>The watch function observes changes in the counter value and triggers the provided callback function whenever it changes.<br><br>Let’s create a simple counter using watch in Composition API",
+        image: "/images/blogs/blog/blog-7-watch-image.png",
+      },
+      {
+        contentTitle: "LifeCycle Hook:",
+        content:
+          "Import the lifecycle hooks from vue<br>Renamed lifecycle hooks, onMounted , onBeforeMount,  onBeforeUpdate,  onUpdated , onMounted,  onUnmounted, onBeforeUnmount, onUnmounted.",
+        image: "/images/blogs/blog/blog-7-lifecycle-image.png",
+      },
+      {
+        contentTitle: "TypeScript support:",
+        content:
+          "Vue 3’s entire codebase is written in TypeScript, accompanied by auto-generated type definitions. The framework now provides better support and a refined type interface for TypeScript’s null coalescing and optional chaining operators.",
+        image: "/images/blogs/blog/blog-7-ts-image.png",
+      },
+      {
+        contentTitle: "Teleport:",
+        content:
+          "A standout feature in Vue.js 3 is Teleport, allowing developers to display a component's template in a different part of the DOM. This feature provides greater flexibility in designing and organizing the user interface. An example usage is as follows:",
+        image: "/images/blogs/blog/blog-7-teleport-image.png",
+      },
+      {
+        contentTitle: "SFC State-driven CSS Variables (v-bind in <style>):",
+        content:
+          "In Vue 3, the style tag now supports CSS values bound to dynamic component states using the v-bind CSS function. Here's an example:",
+        image: "/images/blogs/blog/blog-7-teleport-image.png",
+      },
+      {
+        contentTitle: "v-model prop and events:",
+        content:
+          "<b>PROP:</b> value ⟶ modelValue<br><b>EVENT:</b> input ⟶ update:modelValue<br><b>BREAKING:</b> v-bind's .sync modifier and component model option is removed and replaced with an argument on v-model<br><b>NEW:</b> Multiple v-model bindings on the same component are possible now<br><b>NEW:</b> Added the ability to create custom v-model modifiers.",
+      },
     ],
+    conclusion:
+      "Vue.js 3 introduces game-changing features like the Composition API, TypeScript integration, and an enhanced Virtual DOM. Teleport brings flexibility, allowing components to seamlessly appear in different DOM sections. With state-driven CSS variables, styling becomes dynamic and adaptable. Vue.js 3 offers developers an upgraded toolkit for innovative user interfaces.",
+    credits: "",
   },
 ];
