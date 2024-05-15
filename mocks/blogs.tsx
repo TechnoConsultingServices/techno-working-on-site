@@ -400,4 +400,36 @@ export const blogs = [
       "Vue.js 3 introduces game-changing features like the Composition API, TypeScript integration, and an enhanced Virtual DOM. Teleport brings flexibility, allowing components to seamlessly appear in different DOM sections. With state-driven CSS variables, styling becomes dynamic and adaptable. Vue.js 3 offers developers an upgraded toolkit for innovative user interfaces.",
     credits: "",
   },
+  {
+    id: "8",
+    author: "Sundari",
+    title: "Test Automation Journey",
+    category: "Test Automation",
+    image: "/images/blogs/blog/blog-8-start-image.png",
+    date: "May 15, 2024",
+    blogDescription:
+      "As a member of the testing team it always come to my mind the question ‘Why should we automate’?, What are the benefits of automation?  Is it an easy process?<br>We all know that any product need to be tested before the same is put in the market. This is the same thumb rule any product in the market, be it a IT product of non-IT product. We were having the age-old process of doing the testing manually and these tests get repeated number of times. Then comes the question ‘if the same set of tests are repeated multiple times, can it be possible to record it and play it back when ever required?”.  The answer will be ‘Yes’ and that is where the whole process of automating test process becomes significant.<br> An automated testing tool is able to playback pre-recorded and predefined actions, compare the results to the expected behaviour and report the success or failure of these manual tests more efficiently. Once automated tests are created, they can easily be repeated, scheduled to run automatically and they can be extended to perform tasks impossible with manual testing The next questions come into mind will be cost factor as most of the licensed test tools are costly and requires specific skill. To overcome this we can rely on various opensource tools available which are equally efficient and easy to code.",
+    startImage: "/images/blogs/blog/blog-8-start-image.png",
+    endImage: "/images/blogs/blog/blog-8-end-image.png",
+    blogContent: [
+      {
+        contentTitle: "Case Study",
+        content:
+          "The case study here is to automate a healthcare recruitment and upskilling platform with a Tech Stack of Vue.js frontend, Python backend and Postgress DB. This platform has various hospitals, universities, medical colleges and partner agencies as their customers. Candidates/Students can register in this application and apply for courses, jobs etc and get notifications on the progress of their applications. Recruiters can post their jobs and manage the recruitment process till the candidate onboarding through this platform.",
+      },
+      {
+        contentTitle: "Framework",
+        content:
+          "As a first step creation of framework is important for automation process and here is based on selenium tool which makes code maintenance easy and efficient. Without frameworks, users may place the “code” and “data” at the same location which is neither reusable nor readable. Frameworks produce beneficial outcomes like increased code reusability, higher portability, reduced cost of script maintenance, better code readability, etc. As you are aware there are different flavours of frameworks viz data driven, keyword driven and hybrid a combination of data and keyword.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Data Driven Framework in Selenium is a method of separating data sets from the test case. Once the data sets are separated from the test case, it can be easily modified for a specific functionality without changing the code. It is used to fetch test cases and suites from external files like Excel, .csv, .xml or some database table.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Keyword Driven Framework in Selenium is a method used for speeding up automated testing by separating keywords for common set of functions and instructions. All the operations and instructions to be performed are written in some external file like an Excel sheet. Users can easily control and specify the functionalities they want to test.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Hybrid Driven Framework in Selenium is a concept where we are using the advantage of both Keyword driven framework as well as Data driven framework. It is an easy-to-use framework which allows manual testers to create test cases by just looking at the keywords, test data and object repository without coding in the framework.",
+      },
+      {
+        contentTitle: "Tools",
+        content:
+          "Next comes the tool selection process and we decided to with the combination of python and selenium as its easy to code and can be aligned easily with the application Tech Stack. Project started with creation of a simple framework for scalability, application agnostic and future maintenance easy.<br><br>As in any automation journey there were challenges due the application nature/behaviour of few are listed below<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Choose id attribute for finding xpath, as id value changes dynamically<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•	As the dropdown element is unordered list, to find xpath for dropdown had to use select class<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Time lag in uploading images and documents from local storage.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Application slowness and subsequent script failures and this is not consistent across the runs.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Multiselect dropdown options – resulted in non-closure of dropdown after selecting multiple values.",
+      },
+    ],
+    conclusion:
+      "Automating the application has resulted arresting regression to a great extent apart from other benefits like test efficiency, effectiveness and coverage etc. This also helped in building application stability of approximately 90% in less than 6 months.",
+    credits: "",
+  },
 ];

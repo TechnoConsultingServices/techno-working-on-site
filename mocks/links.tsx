@@ -40,7 +40,7 @@ export const linksBlogs = [
     {
         title: "All Blogs",
         value: "all-blogs",
-        counter: 7,
+        counter: 8,
     },
     {
         title: "Vue.JS",
@@ -53,15 +53,15 @@ export const linksBlogs = [
         counter: 1,
     },
     {
+        title: "Test Automation",
+        value: "test-automation",
+        counter: 1,
+    },
+    {
         title: "Others",
         value: "others",
         counter: 2,
     },
-    // {
-    //     title: "Digital Campaigns",
-    //     value: "digital-campaigns",
-    //     counter: 48,
-    // },
     // {
     //     title: "Marketing Plan",
     //     value: "marketing-plan",
